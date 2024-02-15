@@ -20,6 +20,6 @@ public class hello{
        System.out.println(stud[n].name);
         }
 
-    }
+    }//
     
 }
