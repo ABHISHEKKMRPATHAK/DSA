@@ -28,9 +28,11 @@ public class MergeSort extends Sort{
    }
     
    public static  void  divide(int arr[], int startIndex , int endIndex ){
-if (startIndex>=endIndex){
+
+
+       if (startIndex>=endIndex){
     return;
-}
+       }
 
           int mid = (endIndex+startIndex)/2;
           divide(arr, startIndex, mid);
