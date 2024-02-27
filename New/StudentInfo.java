@@ -9,8 +9,6 @@ public class StudentInfo{
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
-    public int getRollNumber() {
-        return rollNumber;
-    }
+
    
 }
