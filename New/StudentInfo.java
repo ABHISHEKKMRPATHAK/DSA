@@ -9,6 +9,5 @@ public class StudentInfo{
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
-//
    
 }
