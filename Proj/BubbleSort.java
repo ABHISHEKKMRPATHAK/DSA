@@ -3,10 +3,11 @@ package Proj;
 import java.util.Scanner;
 
 public class BubbleSort extends Sort{
+    Scanner inp = new Scanner(System.in);
+    static int size = inp.nextInt();
 public static void main(String[] args){
-         Scanner inp = new Scanner(System.in);
+         
         System.out.println("Size of array :");
-        int size = inp.nextInt();
         int[] array = init_array(size);
         print_array(array);
     
